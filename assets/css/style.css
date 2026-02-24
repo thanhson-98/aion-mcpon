@@ -1919,8 +1919,24 @@ html {
   border-radius: 16px;
   overflow: hidden;
 }
-.ba-before { background: #f5f5f5; }
-.ba-after { background: linear-gradient(135deg, rgba(209,74,118,0.05), rgba(91,140,195,0.08)); }
+.ba-before { 
+  background: #FDFDFD;
+  display: flex;
+  justify-content: center;
+  width: auto;
+} 
+.ba-after { 
+  background: #FDFDFD;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.ba-content-img {
+  display: block;
+  width: 90%;
+  height: auto;
+  vertical-align: top;
+}
 .ba-header {
   padding: 12px 20px;
   font-weight: 700;
