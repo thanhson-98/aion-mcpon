@@ -618,7 +618,7 @@ html {
   padding-top: 6.5rem;
 }
 .home .mv-section {
-  background: #fff url(../img/background_2.png) no-repeat center center;
+  background: #fff url(../img/background_pc.png) no-repeat center center;
   background-size: cover;
   padding-top: 2.25rem;
   position: relative;
@@ -1610,11 +1610,17 @@ html {
    MCPon Hero Section
    ============================ */
 .home .mv-section {
-  background: #fff url(../img/background_2.png) no-repeat center center;
+  background: #fff url(../img/background_pc.png) no-repeat center center;
   background-size: cover;
   min-height: 582px;
   padding-top: 2.25rem;
   padding-bottom: 3rem;
+}
+@media (width < 48rem) {
+  .home .mv-section {
+    background: #fff url(../img/background_sp.png) no-repeat center center;
+    background-size: cover;
+  }
 }
 .home .mv-section > .inner-block {
   max-width: 1200px;
