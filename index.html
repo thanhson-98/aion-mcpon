@@ -1,1219 +1,1713 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width">
-    <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" href="assets/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
     <title>MCPon | AIエージェントで業務を丸ごと自動化</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="MCPonは、AIエージェントが社内のあらゆるツールを直接操作し、業務を丸ごと自動化するサービスです。導入から定着・改革まで一気通貫でサポート。">
+    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="MCPonは、AIエージェントが社内のあらゆるツールを直接操作し、業務を丸ごと自動化するサービスです。導入から定着・改革まで一気通貫でサポート。"
+    />
 
-    <meta property="og:title" content="MCPon | AIエージェントで業務を丸ごと自動化">
-    <meta property="og:description" content="MCPonは、AIエージェントが社内のあらゆるツールを直接操作し、業務を丸ごと自動化するサービスです。導入から定着・改革まで一気通貫でサポート。">
-    <meta property="og:url" content="https://mcpon.jp">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ja_JP">
-    <meta property="og:image" content="https://aion-mcpon.stg-efil.info/assets/img/common/MCPon.png">
-    <meta property="og:site_name" content="MCPon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/splide.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/aos.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta
+      property="og:title"
+      content="MCPon | AIエージェントで業務を丸ごと自動化"
+    />
+    <meta
+      property="og:description"
+      content="MCPonは、AIエージェントが社内のあらゆるツールを直接操作し、業務を丸ごと自動化するサービスです。導入から定着・改革まで一気通貫でサポート。"
+    />
+    <meta property="og:url" content="https://mcpon.jp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta
+      property="og:image"
+      content="https://aion-mcpon.stg-efil.info/assets/img/common/MCPon.png"
+    />
+    <meta property="og:site_name" content="MCPon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/lib/splide.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/aos.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <script src="assets/js/lib/b_browser_switcher.js"></script>
-</head>
+  </head>
 
-
-<body>
-  <div id="wrapper">
-
-    <header>
-      <div id="header" class="c-header">
-        <div class="logo-area">
-          <img src="assets/img/icon_main.png" alt="AION" style="height: 40px;">
-        </div>
-        <div class="toform-area pc">
-          <a href="#contact-section" class="c-btn01 primary small">
-            <span class="inn-txt">無料で相談する</span>
-          </a>
-        </div>
-      </div>
-    </header>
-    <main class="home">
-      <section class="mv-section">
-        <div class="inner-block">
-          
-        </div>
-      </section>
-
-      <section class="logo-loop-section" style="background: #F9F9F9;">
-        <h2 class="c-ttl02">
-          <span class="inn-txt">導入実績</span>
-        </h2>
-
-        <div class="logo-loop-area c-loop">
-          <ul class="loop-list">
-            <li><img src="assets/img/logo-loop/nihon-nyukazai.png" alt="日本乳化剤株式会社"></li>
-            <li><img src="assets/img/logo-loop/softbank.png" alt="SoftBank Group"></li>
-            <li><img src="assets/img/logo-loop/wds.png" alt="株式会社WDS"></li>
-            <li><img src="assets/img/logo-loop/ikegai.png" alt="IKEGAI"></li>
-            <li><img src="assets/img/logo-loop/fanuc.png" alt="FANUC"></li>
-            <li><img src="assets/img/logo-loop/shibutani.png" alt="株式会社シブタニ"></li>
-
-            <li><img src="assets/img/logo-loop/nihon-nyukazai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/softbank.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/wds.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/ikegai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/fanuc.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/shibutani.png" alt=""></li>
-
-            <li><img src="assets/img/logo-loop/nihon-nyukazai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/softbank.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/wds.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/ikegai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/fanuc.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/shibutani.png" alt=""></li>
-
-            <li><img src="assets/img/logo-loop/nihon-nyukazai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/softbank.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/wds.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/ikegai.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/fanuc.png" alt=""></li>
-            <li><img src="assets/img/logo-loop/shibutani.png" alt=""></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="onestop-section mcpon-beforeafter" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">社内の情報をAIが全て集約する</span>
-            <span class="border"></span>
-            <span class="sub">Before / After</span>
-          </h2>
-
-          <p class="c-top-txt">
-            社内のデータをAIが活用できるので、ミスが無くなります。
-          </p>
-
-          <div class="ba-container">
-            <div class="ba-before" data-aos="fade-right">
-              <img src="assets/img/before.png" alt="Before - 従来型AI活用" class="ba-content-img">
-            </div>
-
-            <div class="ba-switch">
-              <div class="ba-power-icon">
-                <i class="fas fa-power-off"></i>
-              </div>
-            </div>
-
-            <div class="ba-after" data-aos="fade-left">
-              <img src="assets/img/after.png" alt="After - MCPon活用" class="ba-content-img">
-            </div>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="header" class="c-header">
+          <div class="logo-area">
+            <img
+              src="assets/img/new_logo_1.png"
+              alt="AION"
+              style="height: 40px"
+            />
+          </div>
+          <div class="toform-area pc">
+            <a
+              href="#contact-section"
+              class="c-btn01 primary small font-16 border-0"
+            >
+              <span class="inn-txt">無料相談フォーム</span>
+            </a>
           </div>
         </div>
-      </section>
-
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
-
-      <section class="scenario-section" data-aos="fade">
-        <div class="inner-block">
-          <div class="scenario-top-line"></div>
-          <div class="scenario-header">
-            <div class="scenario-header-text">
-              <p class="scenario-label">COMMON SCENARIO</p>
-              <h2 class="scenario-ttl">こんな場面ありますよね？</h2>
-            </div>
-          </div>
-
-          <div class="scenario-grid">
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="0">
-              <div class="scenario-card-header">
-                <span class="scenario-num">1</span>
+      </header>
+      <main class="home">
+        <section class="mv-section">
+          <div class="inner-block">
+            <div class="mv-grid">
+              <div class="logo-area">
+                <img src="assets/img/mcpon-logo-2.png" alt="AION" />
               </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">Excelからシステムへ貼り付ける際に1行ズレる</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-table"></i>
-                </div>
-              </div>
-            </div>
+              <h1 class="main-ttl">
+                <span class="big">
+                  <span class="row">優秀な社員のクローンを</span><br />
+                  <span class="row">AIが大量生産する時代へ</span>
+                </span>
+              </h1>
 
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="50">
-              <div class="scenario-card-header">
-                <span class="scenario-num">2</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">数字の打ち間違い（例：100,000→10,000）</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-              </div>
-            </div>
+              <ul class="feature-list">
+                <li>開発一切不要</li>
+                <li>URLを1つコピペするだけ</li>
+                <li>350以上のツールと直結</li>
+              </ul>
 
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="100">
-              <div class="scenario-card-header">
-                <span class="scenario-num">3</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">金額を入力する際に税抜/税込を勘違い</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-yen-sign"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="150">
-              <div class="scenario-card-header">
-                <span class="scenario-num">4</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">電話番号のハイフン位置がバラバラ</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="200">
-              <div class="scenario-card-header">
-                <span class="scenario-num">5</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">最新ファイルだと思って開いたら古いバージョンだった</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-file-circle-xmark"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="250">
-              <div class="scenario-card-header">
-                <span class="scenario-num">6</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">チャットで送られた情報を手入力で転記して誤字</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-comment-dots"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="scenario-card" data-aos="fade-up" data-aos-delay="300">
-              <div class="scenario-card-header">
-                <span class="scenario-num">7</span>
-              </div>
-              <div class="scenario-content">
-                <div class="scenario-card-body">
-                  <p class="scenario-card-txt">口頭で聞いた数値を聞き間違える</p>
-                </div>
-                <div class="scenario-card-icon">
-                  <i class="fas fa-ear-listen"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <p class="scenario-footer">
-            <i class="fas fa-triangle-exclamation"></i>
-            転記ミス・入力ミス・勘違い etc...
-            <span class="scenario-footer-highlight">人間はミスをする生き物</span>
-          </p>
-        </div>
-      </section>
-
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
-
-      <section class="mcpon-feature-section" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">AI活用を「試行」で終わらせない。<br class="sp">MCPonが選ばれる3つの理由</span>
-            <span class="border"></span>
-            <span class="sub">Why MCPon</span>
-          </h2>
-
-          <div class="feature-cards">
-            <div class="feature-card" data-aos="slide-right">
-              <div class="feature-card-inner">
-                <div class="feature-icon-area">
-                  <i class="fas fa-gears"></i>
-                </div>
-                <div class="feature-text-area">
-                  <p class="feature-num">01</p>
-                  <p class="feature-tag">技術</p>
-                  <p class="feature-card-ttl">ツール接続の自由度</p>
-                  <p class="feature-card-txt">既存の基幹システムやSaaSを、独自のMCP技術で安全に接続。AIが直接実務を操作できる環境を構築します。</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="feature-card feature-card-center" data-aos="slide-left">
-              <div class="feature-card-inner">
-                <div class="feature-icon-area">
-                  <i class="fas fa-shield-halved"></i>
-                </div>
-                <div class="feature-text-area">
-                  <p class="feature-num">02</p>
-                  <p class="feature-tag">安全</p>
-                  <p class="feature-card-ttl">高度な権限・ログ管理</p>
-                  <p class="feature-card-txt">誰が・いつ・どのツールを操作したかを全て記録。社内の権限設定を維持したまま、安全な全社展開を可能にします。</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="feature-card" data-aos="slide-right">
-              <div class="feature-card-inner">
-                <div class="feature-icon-area">
-                  <i class="fas fa-people-group"></i>
-                </div>
-                <div class="feature-text-area">
-                  <p class="feature-num">03</p>
-                  <p class="feature-tag">体制</p>
-                  <p class="feature-card-ttl">一気通貫のフルサポート</p>
-                  <p class="feature-card-txt">戦略策定からプロンプト作成、現場への教育まで。AI活用のプロが貴社のチームの一員として定着まで伴走します。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <p class="feature-note">最新のLLM（ChatGPT, Claude, Gemini等）すべてに対応。インフラを選ばない柔軟な導入が可能です。</p>
-        </div>
-      </section>
-
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
-
-      <section class="case-section" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">取組事例</span>
-            <span class="border"></span>
-            <span class="sub">Case</span>
-          </h2>
-  
-          <div class="splide">
-            <div class="splide-arrow-box pc">
-              <div class="splide__arrows splide__arrows--ltr">
-                <button
-                  class="splide__arrow splide__arrow--prev"
-                  type="button"
-                  aria-label="Go to last slide"
-                  aria-controls="splide01-track"
-                >
-                  <img src="assets/img/ico-arrow-right02.svg" alt="">
-                </button>
-  
-                <button
-                  class="splide__arrow splide__arrow--next"
-                  type="button"
-                  aria-label="Next slide"
-                  aria-controls="splide01-track"
-                >
-                  <img src="assets/img/ico-arrow-right02.svg" alt="">
-                </button>
-              </div>
-            </div>
-
-            <div class="splide__track">
-              <ul class="splide__list case-list">
-                <li class="splide__slide">
-                  <div class="img-area">
-                    <div style="background: linear-gradient(135deg, #5B8CC3, #467EB5); height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 12px 12px 0 0;"><i class="fas fa-industry" style="font-size: 64px; color: rgba(255,255,255,0.3);"></i></div>
-                  </div>
-
-                  <p class="name">大手製造業 A社 <span class="case-category">営業事務DX</span></p>
-                  <p class="ttl">新人がベテラン同等の提案書を30分で作成可能に</p>
-                  <p class="txt">
-                    提案書作成に8時間以上かかり、ベテランのノウハウが属人化していたA社。MCPonの導入により、ベテランの思考プロセスをクローン化。CRM・過去案件DBから自動で情報を集約し、高品質な提案書を30分で生成できる体制を実現しました。新人でもベテラン同等のアウトプットが可能になり、営業組織全体の底上げにつながっています。
-                  </p>
-
-                  <div class="before-after-area">
-                    <div class="before-area">
-                      <p class="ttl">Before（従来の運用）</p>
-
-                      <div class="desc">
-                        <p class="txt">提案書作成に8時間以上かかり、ベテランのノウハウが属人化していた</p>
-                      </div>
-                    </div>
-
-                    <div class="arrow-area">
-                      <img src="assets/img/ico-arrow-right.svg" alt="">
-                    </div>
-
-                    <div class="after-area">
-                      <p class="ttl">After（MCPon導入後）</p>
-
-                      <div class="desc">
-                        <p class="txt">MCPonがベテランの思考プロセスをクローン化。CRM・過去案件DBから自動で情報を集約し、高品質な提案書を30分で生成</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <p class="case-result"><span class="result-label">成果：</span>提案書作成時間 8時間→30分（93%削減）</p>
+              <ul class="circle-list circle-list--kpi">
+                <li>
+                  <span class="kpi-label">売上向上</span>
+                  <span class="kpi-value">+10~300%</span>
                 </li>
-
-                <li class="splide__slide">
-                  <div class="img-area">
-                    <div style="background: linear-gradient(135deg, #422C81, #5B3DA8); height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 12px 12px 0 0;"><i class="fas fa-chart-line" style="font-size: 64px; color: rgba(255,255,255,0.3);"></i></div>
-                  </div>
-
-                  <p class="name">IT・サービス業 B社 <span class="case-category">経営管理自動化</span></p>
-                  <p class="ttl">ERP・BI連携で、経営判断に必要なレポート作成時間をゼロに</p>
-                  <p class="txt">
-                    毎月の経営レポート作成に3営業日を費やしていたB社。複数ツールから手作業でデータを集約する非効率な運用が続いていました。MCPon導入後は、ERP・BI・会計ソフトを直接操作し、異常値の自動検知と原因分析まで完了したレポートを毎朝自動生成。経営陣はリアルタイムで正確な情報に基づく意思決定が可能になりました。
-                  </p>
-
-                  <div class="before-after-area">
-                    <div class="before-area">
-                      <p class="ttl">Before（従来の運用）</p>
-
-                      <div class="desc">
-                        <p class="txt">毎月の経営レポート作成に3営業日。複数ツールから手作業でデータ集約</p>
-                      </div>
-                    </div>
-
-                    <div class="arrow-area">
-                      <img src="assets/img/ico-arrow-right.svg" alt="">
-                    </div>
-
-                    <div class="after-area">
-                      <p class="ttl">After（MCPon導入後）</p>
-
-                      <div class="desc">
-                        <p class="txt">MCPonがERP・BI・会計ソフトを直接操作。異常値の自動検知と原因分析まで完了したレポートを毎朝自動生成</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <p class="case-result"><span class="result-label">成果：</span>レポート作成 3日→自動化（100%削減）</p>
+                <li>
+                  <span class="kpi-label">経費削減</span>
+                  <span class="kpi-value">10~30%</span>
                 </li>
-
-                <li class="splide__slide">
-                  <div class="img-area">
-                    <div style="background: linear-gradient(135deg, #D14A76, #E85D8A); height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 12px 12px 0 0;"><i class="fas fa-calculator" style="font-size: 64px; color: rgba(255,255,255,0.3);"></i></div>
-                  </div>
-
-                  <p class="name">会計・コンサルティング業 C社 <span class="case-category">業務プロセス改革</span></p>
-                  <p class="ttl">熟練スタッフの「判断業務」をクローン化し、残業月40時間削減</p>
-                  <p class="txt">
-                    税務判断や監査対応に熟練者が常に必要で、若手は質問するたびに待ち時間が発生していたC社。MCPonが熟練者の判断基準を学習し、税法DB・過去判例を自動検索。根拠付きの判断ドラフトを即時提供することで、若手スタッフの自律的な業務遂行を実現。組織全体の残業時間を大幅に削減しました。
-                  </p>
-
-                  <div class="before-after-area">
-                    <div class="before-area">
-                      <p class="ttl">Before（従来の運用）</p>
-
-                      <div class="desc">
-                        <p class="txt">税務判断や監査対応に熟練者が常に必要。若手は質問するたびに待ち時間が発生</p>
-                      </div>
-                    </div>
-
-                    <div class="arrow-area">
-                      <img src="assets/img/ico-arrow-right.svg" alt="">
-                    </div>
-
-                    <div class="after-area">
-                      <p class="ttl">After（MCPon導入後）</p>
-
-                      <div class="desc">
-                        <p class="txt">MCPonが熟練者の判断基準を学習。税法DB・過去判例を自動検索し、根拠付きの判断ドラフトを即時提供</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <p class="case-result"><span class="result-label">成果：</span>残業時間 月60時間→月20時間（67%削減）</p>
+                <li>
+                  <span class="kpi-label">人件費</span>
+                  <span class="kpi-value">最大50%削減</span>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
-
-      <section class="any-section" data-aos="fade">
-        <h2 class="c-ttl01">
-          <span class="ttl">どんな業務でも、<span class="ib">MCPonなら自動化可能</span></span>
-          <span class="border"></span>
-          <span class="sub">業界・部署を問わず、AIが貴社の実務をサポートします</span>
-        </h2>
-
-        <div class="business each" data-aos="fade">
-          <h3 class="ttl">
-            <span class="inn-txt">どんな業界の業務でも</span>
-          </h3>
-
-          <div class="slide-01">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <p>建設・不動産</p>
-                    <p>資材の在庫管理と受発注管理</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>運輸・物流</p>
-                    <p>送り状・注文書の作成</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>製造業</p>
-                    <p>公差のデータ出入力・異常検知</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>卸売・小売</p>
-                    <p>受注・在庫引き当て処理</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>医療・福祉</p>
-                    <p>診療予約と電子カルテへの反映</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>ホテル・外食</p>
-                    <p>予約確認・変更手続き</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>官公庁</p>
-                    <p>申告データの収集・分析</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>通信・メディア</p>
-                    <p>ソフトウェアの定期テスト・ログ集計</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="slide-02">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <p>通信・メディア</p>
-                    <p>ソフトウェアの定期テスト・ログ集計</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>官公庁</p>
-                    <p>申告データの収集・分析</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>ホテル・外食</p>
-                    <p>予約確認・変更手続き</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>医療・福祉</p>
-                    <p>診療予約と電子カルテへの反映</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>卸売・小売</p>
-                    <p>受注・在庫引き当て処理</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>製造業</p>
-                    <p>公差のデータ出入力・異常検知</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>運輸・物流</p>
-                    <p>送り状・注文書の作成</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>建設・不動産</p>
-                    <p>資材の在庫管理と受発注管理</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="department each" data-aos="fade">
-          <h3 class="ttl">
-            <span class="inn-txt">どんな部署の業務でも</span>
-          </h3>
-
-          <div class="slide-01">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <p>営業</p>
-                    <p>見込み顧客へのアプローチリスト作成・メール送付</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>経理・財務</p>
-                    <p>交通費精算チェック・月次レポート作成</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>人事・総務</p>
-                    <p>過重労働者の抽出と連絡・社内規定検索</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>マーケティング</p>
-                    <p>広告レポート作成・競合サイト更新検知</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>カスタマーサポート</p>
-                    <p>FAQ一次回答・問い合わせの自動分類</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>法務・管理</p>
-                    <p>契約書の差分チェック・リスク箇所抽出</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>情報システム</p>
-                    <p>アカウント発行・パスワードリセット対応</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>研究開発</p>
-                    <p>論文の要約と特定データの抽出</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="slide-02">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <p>研究開発</p>
-                    <p>論文の要約と特定データの抽出</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>情報システム</p>
-                    <p>アカウント発行・パスワードリセット対応</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>法務・管理</p>
-                    <p>契約書の差分チェック・リスク箇所抽出</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>カスタマーサポート</p>
-                    <p>FAQ一次回答・問い合わせの自動分類</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>マーケティング</p>
-                    <p>広告レポート作成・競合サイト更新検知</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>人事・総務</p>
-                    <p>過重労働者の抽出と連絡・社内規定検索</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>経理・財務</p>
-                    <p>交通費精算チェック・月次レポート作成</p>
-                  </li>
-                  <li class="splide__slide">
-                    <p>営業</p>
-                    <p>見込み顧客へのアプローチリスト作成・メール送付</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="tool each" data-aos="fade">
-          <h3 class="ttl">
-            <span class="inn-txt">現在お使いのツールと、そのまま接続</span>
-          </h3>
-          <p class="tool-sub">独自のMCP技術により、主要SaaSから自社システムまでセキュアに連携します</p>
-
-          <div class="slide-01">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/salesforce.png.webp" alt="">
-                    <p>Salesforce</p>
-                    <p>顧客情報の更新・商談管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/hubspot.svg" alt="">
-                    <p>HubSpot</p>
-                    <p>リード管理・ナーチャリングを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/zoho.png.webp" alt="">
-                    <p>Zoho CRM</p>
-                    <p>顧客データ同期・営業レポートを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/dynamics365.svg" alt="">
-                    <p>Microsoft Dynamics 365</p>
-                    <p>業務プロセス連携・データ統合を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/excel.png.webp" alt="">
-                    <p>Excel</p>
-                    <p>データ集計・帳票作成を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/google-sheets.png.webp" alt="">
-                    <p>Google Sheets</p>
-                    <p>データ集計・レポート出力を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/slack.png.webp" alt="">
-                    <p>Slack</p>
-                    <p>チーム通知・日報集約を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/zoom.png.webp" alt="">
-                    <p>Zoom</p>
-                    <p>会議スケジュール調整・録画管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/dropbox.png.webp" alt="">
-                    <p>Dropbox</p>
-                    <p>ファイル整理・共有リンク管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/google-drive.png.webp" alt="">
-                    <p>Google Drive</p>
-                    <p>ファイル管理・権限設定を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/shopify.svg" alt="">
-                    <p>Shopify</p>
-                    <p>受注処理・在庫連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/box.svg" alt="">
-                    <p>Box</p>
-                    <p>文書管理・承認ワークフローを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/google-ads.png.webp" alt="">
-                    <p>Google Ads</p>
-                    <p>広告レポート取得・入札調整を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/yahoo-ads.png.webp" alt="">
-                    <p>Yahoo広告</p>
-                    <p>広告運用レポート・予算管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/meta.png.webp" alt="">
-                    <p>Meta広告</p>
-                    <p>キャンペーン分析・レポート作成を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/google-analytics.png.webp" alt="">
-                    <p>Google Analytics</p>
-                    <p>アクセス解析・定期レポートを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/tableau.png.webp" alt="">
-                    <p>Tableau</p>
-                    <p>ダッシュボード更新・データ抽出を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/jira.svg" alt="">
-                    <p>Jira</p>
-                    <p>チケット管理・進捗レポートを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/looker-studio.png.webp" alt="">
-                    <p>Looker Studio</p>
-                    <p>レポート自動生成・データ連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/microsoft-teams.svg" alt="">
-                    <p>Microsoft Teams</p>
-                    <p>チャット連携・会議管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/sharepoint.svg" alt="">
-                    <p>SharePoint</p>
-                    <p>文書管理・社内ポータル連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/powerbi.svg" alt="">
-                    <p>Power BI</p>
-                    <p>ダッシュボード更新・KPIモニタリングを自動化</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="slide-02">
-            <div class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/notion.png.webp" alt="">
-                    <p>Notion</p>
-                    <p>ドキュメント管理・タスク整理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/smarthr.svg" alt="">
-                    <p>SmartHR</p>
-                    <p>入退社手続き・労務管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/money-forward.svg" alt="">
-                    <p>Money Forward</p>
-                    <p>経費精算・仕訳処理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/chatwork.svg" alt="">
-                    <p>Chatwork</p>
-                    <p>タスク振り分け・進捗報告を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/line.svg" alt="">
-                    <p>LINE公式アカウント</p>
-                    <p>顧客対応・配信管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/github.svg" alt="">
-                    <p>GitHub</p>
-                    <p>コードレビュー・リリース管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/openai.svg" alt="">
-                    <p>ChatGPT / OpenAI</p>
-                    <p>AI応答の業務組込み・プロンプト管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/kintone.png.webp" alt="">
-                    <p>kintone</p>
-                    <p>レコード登録・ワークフロー処理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/backlog.svg" alt="">
-                    <p>Backlog</p>
-                    <p>課題管理・通知連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/base.png.webp" alt="">
-                    <p>BASE</p>
-                    <p>注文処理・商品管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/ec-cube.png.webp" alt="">
-                    <p>EC-CUBE</p>
-                    <p>受注管理・顧客データ連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/sumarezi.png.webp" alt="">
-                    <p>スマレジ</p>
-                    <p>売上集計・在庫管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/logikura.png.webp" alt="">
-                    <p>ロジクラ</p>
-                    <p>入出荷管理・在庫データ連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/yayoi.png.webp" alt="">
-                    <p>弥生会計オンライン</p>
-                    <p>仕訳入力・決算資料作成を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/jinjer.svg" alt="">
-                    <p>jinjer</p>
-                    <p>勤怠管理・給与計算連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/rakuraku-seisan.svg" alt="">
-                    <p>楽楽精算</p>
-                    <p>経費申請・承認フローを自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/freee.png.webp" alt="">
-                    <p>freee</p>
-                    <p>仕訳入力・請求書発行を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/gmail.svg" alt="">
-                    <p>Gmail</p>
-                    <p>メール仕分け・定型返信を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/outlook.svg" alt="">
-                    <p>Outlook</p>
-                    <p>メール管理・予定表連携を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/sap.svg" alt="">
-                    <p>SAP / Oracle</p>
-                    <p>基幹システム連携・データ同期を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/gitlab.svg" alt="">
-                    <p>GitLab</p>
-                    <p>CI/CD・マージリクエスト管理を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/asana.svg" alt="">
-                    <p>Asana</p>
-                    <p>プロジェクト管理・タスク進捗を自動化</p>
-                  </li>
-                  <li class="splide__slide">
-                    <img src="assets/img/tool/pdf.png.webp" alt="">
-                    <p>PDF</p>
-                    <p>帳票読取・データ抽出を自動化</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
-
-      <section class="plan-section" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">サービス内容・プラン</span>
-            <span class="border"></span>
-            <span class="sub">Plan</span>
+        <section class="logo-loop-section" style="background: #f9f9f9">
+          <h2 class="c-ttl02">
+            <span class="inn-txt">導入実績</span>
           </h2>
 
-          <div class="plan-flow">
-            <p class="plan-flow-ttl">導入の流れ</p>
-            <div class="plan-flow-steps">
-              <div class="plan-flow-step">
-                <span class="plan-flow-num">1</span>
-                <span>現状分析(PoC)</span>
-              </div>
-              <i class="fas fa-arrow-right plan-flow-arrow"></i>
-              <div class="plan-flow-step">
-                <span class="plan-flow-num">2</span>
-                <span>環境構築</span>
-              </div>
-              <i class="fas fa-arrow-right plan-flow-arrow"></i>
-              <div class="plan-flow-step">
-                <span class="plan-flow-num">3</span>
-                <span>社内展開</span>
-              </div>
-              <i class="fas fa-arrow-right plan-flow-arrow"></i>
-              <div class="plan-flow-step">
-                <span class="plan-flow-num">4</span>
-                <span>継続改善</span>
-              </div>
-            </div>
-            <p class="plan-lead">最短1ヶ月〜</p>
-          </div>
+          <div class="logo-loop-area c-loop">
+            <ul class="loop-list">
+              <li>
+                <img
+                  src="assets/img/logo-loop/nihon-nyukazai_removed.png"
+                  alt="日本乳化剤株式会社"
+                />
+              </li>
+              <li>
+                <img
+                  src="assets/img/logo-loop/softbank_removed.png"
+                  alt="SoftBank Group"
+                />
+              </li>
+              <li>
+                <img
+                  src="assets/img/logo-loop/wds_removed.png"
+                  alt="株式会社WDS"
+                />
+              </li>
+              <li>
+                <img
+                  src="assets/img/logo-loop/ikegai_removed.png"
+                  alt="IKEGAI"
+                />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/fanuc_removed.png" alt="FANUC" />
+              </li>
+              <li>
+                <img
+                  src="assets/img/logo-loop/shibutani_removed.png"
+                  alt="株式会社シブタニ"
+                />
+              </li>
 
-          <div class="plan-table">
-            <div class="plan-card">
-              <p class="plan-name">初期導入</p>
-              <p class="plan-price">60<span class="plan-unit">万円〜</span></p>
-              <p class="plan-note">5台まで一律</p>
+              <li>
+                <img
+                  src="assets/img/logo-loop/nihon-nyukazai_removed.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/softbank_removed.png" alt="" />
+              </li>
+              <li><img src="assets/img/logo-loop/wds_removed.png" alt="" /></li>
+              <li>
+                <img src="assets/img/logo-loop/ikegai_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/fanuc_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/shibutani_removed.png" alt="" />
+              </li>
+
+              <li>
+                <img
+                  src="assets/img/logo-loop/nihon-nyukazai_removed.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/softbank_removed.png" alt="" />
+              </li>
+              <li><img src="assets/img/logo-loop/wds_removed.png" alt="" /></li>
+              <li>
+                <img src="assets/img/logo-loop/ikegai_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/fanuc_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/shibutani_removed.png" alt="" />
+              </li>
+
+              <li>
+                <img
+                  src="assets/img/logo-loop/nihon-nyukazai_removed.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/softbank_removed.png" alt="" />
+              </li>
+              <li><img src="assets/img/logo-loop/wds_removed.png" alt="" /></li>
+              <li>
+                <img src="assets/img/logo-loop/ikegai_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/fanuc_removed.png" alt="" />
+              </li>
+              <li>
+                <img src="assets/img/logo-loop/shibutani_removed.png" alt="" />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="onestop-section mcpon-beforeafter" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">社内の情報をAIが全て集約する</span>
+              <span class="border"></span>
+              <span class="sub">Before / After</span>
+            </h2>
+
+            <p class="c-top-txt">
+              社内のデータをAIが活用できるので、ミスが無くなります。
+            </p>
+
+            <div class="ba-container">
+              <div class="ba-before" data-aos="fade-right">
+                <img
+                  src="assets/img/before_new.png"
+                  alt="Before - 従来型AI活用"
+                  class="ba-content-img"
+                />
+              </div>
+
+              <div class="ba-switch">
+                <div class="ba-power-icon">
+                  <i class="fas fa-power-off"></i>
+                </div>
+              </div>
+
+              <div class="ba-after" data-aos="fade-left">
+                <img
+                  src="assets/img/after_new.png"
+                  alt="After - MCPon活用"
+                  class="ba-content-img"
+                />
+              </div>
             </div>
-            <div class="plan-card">
-              <p class="plan-name">月額サービス利用料</p>
-              <p class="plan-price">15<span class="plan-unit">万円/月</span></p>
-              <p class="plan-note">&nbsp;</p>
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
             </div>
-            <div class="plan-card">
-              <p class="plan-name">簡易サポートサービス</p>
-              <p class="plan-price">30<span class="plan-unit">万円/月</span></p>
-              <p class="plan-note">&nbsp;</p>
-            </div>
-            <div class="plan-card plan-card-premium">
-              <p class="plan-name">AIトランスフォーメーション<br>コンサル</p>
-              <p class="plan-price">100<span class="plan-unit">万円〜</span></p>
-              <p class="plan-note">&nbsp;</p>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
             </div>
           </div>
         </div>
-      </section>
-      
-      <div class="cta-area mcpon-cta" data-aos="fade">
-        <div class="inner-block">
-          <div class="cta-bg-icon"></div>
-          <p class="cta-main-txt">
-            自社の業務は、どこまで<span class="cta-highlight">AIで自動化</span>できるか。<br>
-            まずは専門スタッフが無料でアドバイスします。
-          </p>
-          <div class="cta-buttons">
-            <a href="#contact-section" class="c-btn-gradient"><span class="inn-txt">無料で相談する</span></a>
-            <a href="#contact-section" class="c-btn-ghost"><span class="inn-txt">サービス資料をダウンロード</span></a>
-          </div>
-          <p class="cta-micro">強引な営業は一切ありません。最短翌営業日に専門スタッフよりご連絡します。</p>
-        </div>
-      </div>
 
-      <section class="qa-section" data-aos="fade">
-        <div class="inner-block">
+        <section class="scenario-section" data-aos="fade">
+          <div class="inner-block">
+            <div class="scenario-top-line"></div>
+            <div class="scenario-header">
+              <div class="scenario-header-text">
+                <p class="scenario-label">COMMON SCENARIO</p>
+                <h2 class="scenario-ttl">こんな場面ありますよね？</h2>
+              </div>
+            </div>
+
+            <div class="scenario-grid">
+              <div class="scenario-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="scenario-card-header">
+                  <span class="scenario-num">1</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      Excelからシステムへ貼り付ける際に1行ズレる
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-table"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="scenario-card" data-aos="fade-up" data-aos-delay="50">
+                <div class="scenario-card-header">
+                  <span class="scenario-num">2</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      数字の打ち間違い（例：100,000→10,000）
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="scenario-card"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="scenario-card-header">
+                  <span class="scenario-num">3</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      金額を入力する際に税抜/税込を勘違い
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-yen-sign"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="scenario-card"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
+                <div class="scenario-card-header">
+                  <span class="scenario-num">4</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      電話番号のハイフン位置がバラバラ
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="scenario-card"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="scenario-card-header">
+                  <span class="scenario-num">5</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      最新ファイルだと思って開いたら古いバージョンだった
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-file-circle-xmark"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="scenario-card"
+                data-aos="fade-up"
+                data-aos-delay="250"
+              >
+                <div class="scenario-card-header">
+                  <span class="scenario-num">6</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      チャットで送られた情報を手入力で転記して誤字
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-comment-dots"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="scenario-card"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="scenario-card-header">
+                  <span class="scenario-num">7</span>
+                </div>
+                <div class="scenario-content">
+                  <div class="scenario-card-body">
+                    <p class="scenario-card-txt">
+                      口頭で聞いた数値を聞き間違える
+                    </p>
+                  </div>
+                  <div class="scenario-card-icon">
+                    <i class="fas fa-ear-listen"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p class="scenario-footer">
+              <i class="fas fa-triangle-exclamation"></i>
+              転記ミス・入力ミス・勘違い etc...
+              <span class="scenario-footer-highlight"
+                >人間はミスをする生き物</span
+              >
+            </p>
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
+            </div>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <section class="mcpon-feature-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl"
+                >AI活用を「試行」で終わらせない。<br
+                  class="sp"
+                />MCPonが選ばれる3つの理由</span
+              >
+              <span class="border"></span>
+              <span class="sub">Why MCPon</span>
+            </h2>
+
+            <ol class="feature-list">
+              <li data-aos="slide-right" class="aos-init aos-animate">
+                <div class="contents-wrap">
+                  <div class="img-area">
+                    <img src="assets/img/card_6.png" alt="" />
+                  </div>
+
+                  <div class="desc-area">
+                    <p class="num">01</p>
+                    <p class="ttl">
+                      すべて“受け身”で<span class="ib">導入完了</span>
+                    </p>
+                    <p class="sub">
+                      業務の流れを見せて質問に<span class="ib"
+                        >答えるだけでOK</span
+                      >
+                    </p>
+                    <p class="txt">
+                      導入のために複雑な資料を準備したり、専門知識を持った担当者を配置する必要はありません。実際の業務フローを見せながら、いくつかの質問に答えていただくだけで、Autodate側で設計・構築を行います。完全“受け身”型の導入フローで、現場の負担も最小限に抑えられます。
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-aos="slide-left" class="aos-init aos-animate">
+                <div class="contents-wrap">
+                  <div class="img-area">
+                    <img src="assets/img/card_7.png" alt="" />
+                  </div>
+                  <div class="desc-area">
+                    <p class="num">02</p>
+                    <p class="ttl">絶対に失敗しない<br />完全手離れの仕組み</p>
+                    <p class="sub">
+                      複数のRPAを組合せ+手作業で<span class="ib"
+                        >高難度業務も</span
+                      ><span class="ib">完全自動化</span>
+                    </p>
+                    <p class="txt">
+                      RPA導入や業務自動化で何より怖いのは、導入の失敗や、一部の手作業が残ること。AutoDateは複数のRPAツールやOCR等を業務ごとに最適に組み合わせ、さらに自動化が難しい箇所には人の手を加えることで、実務で本当に使える“完全自動化”を実現します。
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-aos="slide-right" class="aos-init aos-animate">
+                <div class="contents-wrap">
+                  <div class="img-area">
+                    <img
+                      src="assets/img/card_8.png"
+                      alt="AutoDateの自動化フロー図。"
+                    />
+                  </div>
+                  <div class="desc-area">
+                    <p class="num">03</p>
+                    <p class="ttl">
+                      自動化と手動の丸投げなのに<span class="ib"
+                        >平均10～30万円/月の</span
+                      ><span class="ib">低コスト！</span
+                      ><br />初期費用も原則無料
+                    </p>
+                    <p class="note">※業務量、手動の稼働量によって異なります</p>
+                    <p class="sub">
+                      複数ツールの利用料、運用保守費用、人件費を丸ごと一本化
+                    </p>
+                    <p class="txt">
+                      Autodateでは、通常なら個別に発生するツール利用料、メンテナンス費用、人員コストなどをすべて一元的に対応。運用の複雑さを解消すると同時に、コストの見える化と最適化を実現します。管理工数の削減にもつながり、コストメリットが出やすいサービスになります。
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+
+            <p class="feature-note">
+              最新のLLM（ChatGPT, Claude,
+              Gemini等）すべてに対応。インフラを選ばない柔軟な導入が可能です。
+            </p>
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
+            </div>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <section class="case-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">取組事例</span>
+              <span class="border"></span>
+              <span class="sub">Case</span>
+            </h2>
+
+            <div class="splide">
+              <div class="splide-arrow-box pc">
+                <div class="splide__arrows splide__arrows--ltr">
+                  <button
+                    class="splide__arrow splide__arrow--prev"
+                    type="button"
+                    aria-label="Go to last slide"
+                    aria-controls="splide01-track"
+                  >
+                    <img src="assets/img/ico-arrow-right02.svg" alt="" />
+                  </button>
+
+                  <button
+                    class="splide__arrow splide__arrow--next"
+                    type="button"
+                    aria-label="Next slide"
+                    aria-controls="splide01-track"
+                  >
+                    <img src="assets/img/ico-arrow-right02.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="splide__track">
+                <ul class="splide__list case-list">
+                  <li class="splide__slide">
+                    <div class="img-area">
+                      <div
+                        style="
+                          background: linear-gradient(135deg, #5b8cc3, #467eb5);
+                          height: 200px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          border-radius: 12px 12px 0 0;
+                        "
+                      >
+                        <i
+                          class="fas fa-industry"
+                          style="
+                            font-size: 64px;
+                            color: rgba(255, 255, 255, 0.3);
+                          "
+                        ></i>
+                      </div>
+                    </div>
+
+                    <p class="name">
+                      大手製造業 A社
+                      <span class="case-category">営業事務DX</span>
+                    </p>
+                    <p class="ttl">
+                      新人がベテラン同等の提案書を30分で作成可能に
+                    </p>
+                    <p class="txt">
+                      提案書作成に8時間以上かかり、ベテランのノウハウが属人化していたA社。MCPonの導入により、ベテランの思考プロセスをクローン化。CRM・過去案件DBから自動で情報を集約し、高品質な提案書を30分で生成できる体制を実現しました。新人でもベテラン同等のアウトプットが可能になり、営業組織全体の底上げにつながっています。
+                    </p>
+
+                    <div class="before-after-area">
+                      <div class="before-area">
+                        <p class="ttl">Before（従来の運用）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            提案書作成に8時間以上かかり、ベテランのノウハウが属人化していた
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="arrow-area">
+                        <img src="assets/img/ico-arrow-right.svg" alt="" />
+                      </div>
+
+                      <div class="after-area">
+                        <p class="ttl">After（MCPon導入後）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            MCPonがベテランの思考プロセスをクローン化。CRM・過去案件DBから自動で情報を集約し、高品質な提案書を30分で生成
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="case-result">
+                      <span class="result-label">成果：</span>提案書作成時間
+                      8時間→30分（93%削減）
+                    </p>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="img-area">
+                      <div
+                        style="
+                          background: linear-gradient(135deg, #422c81, #5b3da8);
+                          height: 200px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          border-radius: 12px 12px 0 0;
+                        "
+                      >
+                        <i
+                          class="fas fa-chart-line"
+                          style="
+                            font-size: 64px;
+                            color: rgba(255, 255, 255, 0.3);
+                          "
+                        ></i>
+                      </div>
+                    </div>
+
+                    <p class="name">
+                      IT・サービス業 B社
+                      <span class="case-category">経営管理自動化</span>
+                    </p>
+                    <p class="ttl">
+                      ERP・BI連携で、経営判断に必要なレポート作成時間をゼロに
+                    </p>
+                    <p class="txt">
+                      毎月の経営レポート作成に3営業日を費やしていたB社。複数ツールから手作業でデータを集約する非効率な運用が続いていました。MCPon導入後は、ERP・BI・会計ソフトを直接操作し、異常値の自動検知と原因分析まで完了したレポートを毎朝自動生成。経営陣はリアルタイムで正確な情報に基づく意思決定が可能になりました。
+                    </p>
+
+                    <div class="before-after-area">
+                      <div class="before-area">
+                        <p class="ttl">Before（従来の運用）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            毎月の経営レポート作成に3営業日。複数ツールから手作業でデータ集約
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="arrow-area">
+                        <img src="assets/img/ico-arrow-right.svg" alt="" />
+                      </div>
+
+                      <div class="after-area">
+                        <p class="ttl">After（MCPon導入後）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            MCPonがERP・BI・会計ソフトを直接操作。異常値の自動検知と原因分析まで完了したレポートを毎朝自動生成
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="case-result">
+                      <span class="result-label">成果：</span>レポート作成
+                      3日→自動化（100%削減）
+                    </p>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="img-area">
+                      <div
+                        style="
+                          background: linear-gradient(135deg, #d14a76, #e85d8a);
+                          height: 200px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          border-radius: 12px 12px 0 0;
+                        "
+                      >
+                        <i
+                          class="fas fa-calculator"
+                          style="
+                            font-size: 64px;
+                            color: rgba(255, 255, 255, 0.3);
+                          "
+                        ></i>
+                      </div>
+                    </div>
+
+                    <p class="name">
+                      会計・コンサルティング業 C社
+                      <span class="case-category">業務プロセス改革</span>
+                    </p>
+                    <p class="ttl">
+                      熟練スタッフの「判断業務」をクローン化し、残業月40時間削減
+                    </p>
+                    <p class="txt">
+                      税務判断や監査対応に熟練者が常に必要で、若手は質問するたびに待ち時間が発生していたC社。MCPonが熟練者の判断基準を学習し、税法DB・過去判例を自動検索。根拠付きの判断ドラフトを即時提供することで、若手スタッフの自律的な業務遂行を実現。組織全体の残業時間を大幅に削減しました。
+                    </p>
+
+                    <div class="before-after-area">
+                      <div class="before-area">
+                        <p class="ttl">Before（従来の運用）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            税務判断や監査対応に熟練者が常に必要。若手は質問するたびに待ち時間が発生
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="arrow-area">
+                        <img src="assets/img/ico-arrow-right.svg" alt="" />
+                      </div>
+
+                      <div class="after-area">
+                        <p class="ttl">After（MCPon導入後）</p>
+
+                        <div class="desc">
+                          <p class="txt">
+                            MCPonが熟練者の判断基準を学習。税法DB・過去判例を自動検索し、根拠付きの判断ドラフトを即時提供
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="case-result">
+                      <span class="result-label">成果：</span>残業時間
+                      月60時間→月20時間（67%削減）
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
+            </div>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <section class="any-section" data-aos="fade">
           <h2 class="c-ttl01">
-            <span class="ttl">よくある質問</span>
+            <span class="ttl"
+              >どんな業務でも、<span class="ib">MCPonなら自動化可能</span></span
+            >
             <span class="border"></span>
-            <span class="sub">FAQ</span>
-          </h2>
-  
-          <ul class="qa-list">
-            <li>
-              <button type="button" class="question-area js-accordion-btn" aria-expanded="false">
-                <span class="qa-icon">Q.</span>
-                <span class="inn-txt">自社の機密データがAIの学習に使われることはありますか？ <span class="security-badge">Security</span></span>
-                <span class="ico-open"></span>
-              </button>
-              <div class="answer-area accordion-cont">
-                <span class="qa-icon">A.</span>
-                <p class="txt">
-                  いいえ、一切ありません。MCPonで扱うデータはAIモデルの学習には使用されません。お客様のデータは処理完了後に自動削除され、外部へ流出するリスクはゼロです。
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <button type="button" class="question-area js-accordion-btn" aria-expanded="false">
-                <span class="qa-icon">Q.</span>
-                <span class="inn-txt">既存の社内ツールや独自システムとの連携には、別途開発費用が必要ですか？</span>
-                <span class="ico-open"></span>
-              </button>
-              <div class="answer-area accordion-cont">
-                <span class="qa-icon">A.</span>
-                <p class="txt">
-                  標準ツール（Slack、Salesforce、freee、kintone等）はMCP設定のみで即座に連携可能です。独自システムについても、APIがあれば追加開発なしで接続できるケースがほとんどです。
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <button type="button" class="question-area js-accordion-btn" aria-expanded="false">
-                <span class="qa-icon">Q.</span>
-                <span class="inn-txt">セキュリティ面での「権限管理」はどうなっていますか？ <span class="security-badge">Security</span></span>
-                <span class="ico-open"></span>
-              </button>
-              <div class="answer-area accordion-cont">
-                <span class="qa-icon">A.</span>
-                <p class="txt">
-                  MCPハブにより、誰が・どのツールに・どこまで操作できるかを厳格にコントロールします。すべての操作はログに記録され、既存の社内権限体系をそのまま引き継げます。
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <button type="button" class="question-area js-accordion-btn" aria-expanded="false">
-                <span class="qa-icon">Q.</span>
-                <span class="inn-txt">すでにChatGPTやClaudeを契約していますが、それを使えますか？</span>
-                <span class="ico-open"></span>
-              </button>
-              <div class="answer-area accordion-cont">
-                <span class="qa-icon">A.</span>
-                <p class="txt">
-                  はい、可能です。MCPonは特定のAIモデルに依存しません。ChatGPT、Claude、Gemini等、お客様が既にご契約中のLLMをそのまま活用できます。
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <button type="button" class="question-area js-accordion-btn" aria-expanded="false">
-                <span class="qa-icon">Q.</span>
-                <span class="inn-txt">導入を検討してから実際に使えるまでどのくらいかかりますか？</span>
-                <span class="ico-open"></span>
-              </button>
-              <div class="answer-area accordion-cont">
-                <span class="qa-icon">A.</span>
-                <p class="txt">
-                  初日から効果を実感いただけます。標準ツールの接続は即日完了。本格的な業務フロー構築も最短1ヶ月で稼働可能です。
-                </p>
-              </div>
-            </li>
-          </ul>
-
-        </div>
-      </section>
-
-      <section class="company-section" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">すべての企業にAIの力を。</span>
-            <span class="border"></span>
-            <span class="sub">Company</span>
+            <span class="sub"
+              >業界・部署を問わず、AIが貴社の実務をサポートします</span
+            >
           </h2>
 
-          <div class="company-content">
-            <div class="company-logo-area">
-              <img src="assets/img/icon_main.png" alt="AION" style="height: 120px;">
-              <div class="company-power-icon" data-aos="zoom-in">
-                <i class="fas fa-power-off"></i>
+          <div class="business each" data-aos="fade">
+            <h3 class="ttl">
+              <span class="inn-txt">どんな業界の業務でも</span>
+            </h3>
+
+            <div class="slide-01">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <p>建設・不動産</p>
+                      <p>資材の在庫管理と受発注管理</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>運輸・物流</p>
+                      <p>送り状・注文書の作成</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>製造業</p>
+                      <p>公差のデータ出入力・異常検知</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>卸売・小売</p>
+                      <p>受注・在庫引き当て処理</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>医療・福祉</p>
+                      <p>診療予約と電子カルテへの反映</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>ホテル・外食</p>
+                      <p>予約確認・変更手続き</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>官公庁</p>
+                      <p>申告データの収集・分析</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>通信・メディア</p>
+                      <p>ソフトウェアの定期テスト・ログ集計</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <table class="company-table">
-              <tbody>
-                <tr><th>社名</th><td>AION株式会社</td></tr>
-                <tr><th>所在地</th><td>東京都渋谷区千駄ヶ谷3-5-10</td></tr>
-                <tr><th>代表取締役</th><td>細貝 拓磨</td></tr>
-                <tr><th>資本金</th><td>100万円</td></tr>
-                <tr><th>事業内容</th><td>AIエージェント「MCPon」の開発・運営、MCP導入支援、AI人材育成コンサルティング、DX推進支援</td></tr>
-                <tr><th>設立</th><td>2025年5月</td></tr>
-              </tbody>
-            </table>
+            <div class="slide-02">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <p>通信・メディア</p>
+                      <p>ソフトウェアの定期テスト・ログ集計</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>官公庁</p>
+                      <p>申告データの収集・分析</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>ホテル・外食</p>
+                      <p>予約確認・変更手続き</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>医療・福祉</p>
+                      <p>診療予約と電子カルテへの反映</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>卸売・小売</p>
+                      <p>受注・在庫引き当て処理</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>製造業</p>
+                      <p>公差のデータ出入力・異常検知</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>運輸・物流</p>
+                      <p>送り状・注文書の作成</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>建設・不動産</p>
+                      <p>資材の在庫管理と受発注管理</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="department each" data-aos="fade">
+            <h3 class="ttl">
+              <span class="inn-txt">どんな部署の業務でも</span>
+            </h3>
+
+            <div class="slide-01">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <p>営業</p>
+                      <p>見込み顧客へのアプローチリスト作成・メール送付</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>経理・財務</p>
+                      <p>交通費精算チェック・月次レポート作成</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>人事・総務</p>
+                      <p>過重労働者の抽出と連絡・社内規定検索</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>マーケティング</p>
+                      <p>広告レポート作成・競合サイト更新検知</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>カスタマーサポート</p>
+                      <p>FAQ一次回答・問い合わせの自動分類</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>法務・管理</p>
+                      <p>契約書の差分チェック・リスク箇所抽出</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>情報システム</p>
+                      <p>アカウント発行・パスワードリセット対応</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>研究開発</p>
+                      <p>論文の要約と特定データの抽出</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="slide-02">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <p>研究開発</p>
+                      <p>論文の要約と特定データの抽出</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>情報システム</p>
+                      <p>アカウント発行・パスワードリセット対応</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>法務・管理</p>
+                      <p>契約書の差分チェック・リスク箇所抽出</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>カスタマーサポート</p>
+                      <p>FAQ一次回答・問い合わせの自動分類</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>マーケティング</p>
+                      <p>広告レポート作成・競合サイト更新検知</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>人事・総務</p>
+                      <p>過重労働者の抽出と連絡・社内規定検索</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>経理・財務</p>
+                      <p>交通費精算チェック・月次レポート作成</p>
+                    </li>
+                    <li class="splide__slide">
+                      <p>営業</p>
+                      <p>見込み顧客へのアプローチリスト作成・メール送付</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool each" data-aos="fade">
+            <h3 class="ttl">
+              <span class="inn-txt">現在お使いのツールと、そのまま接続</span>
+            </h3>
+            <p class="tool-sub">
+              独自のMCP技術により、主要SaaSから自社システムまでセキュアに連携します
+            </p>
+
+            <div class="slide-01">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/salesforce.png.webp" alt="" />
+                      <p>Salesforce</p>
+                      <p>顧客情報の更新・商談管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/hubspot.svg" alt="" />
+                      <p>HubSpot</p>
+                      <p>リード管理・ナーチャリングを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/zoho.png.webp" alt="" />
+                      <p>Zoho CRM</p>
+                      <p>顧客データ同期・営業レポートを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/dynamics365.svg" alt="" />
+                      <p>Microsoft Dynamics 365</p>
+                      <p>業務プロセス連携・データ統合を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/excel.png.webp" alt="" />
+                      <p>Excel</p>
+                      <p>データ集計・帳票作成を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/img/tool/google-sheets.png.webp"
+                        alt=""
+                      />
+                      <p>Google Sheets</p>
+                      <p>データ集計・レポート出力を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/slack.png.webp" alt="" />
+                      <p>Slack</p>
+                      <p>チーム通知・日報集約を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/zoom.png.webp" alt="" />
+                      <p>Zoom</p>
+                      <p>会議スケジュール調整・録画管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/dropbox.png.webp" alt="" />
+                      <p>Dropbox</p>
+                      <p>ファイル整理・共有リンク管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/google-drive.png.webp" alt="" />
+                      <p>Google Drive</p>
+                      <p>ファイル管理・権限設定を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/shopify.svg" alt="" />
+                      <p>Shopify</p>
+                      <p>受注処理・在庫連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/box.svg" alt="" />
+                      <p>Box</p>
+                      <p>文書管理・承認ワークフローを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/google-ads.png.webp" alt="" />
+                      <p>Google Ads</p>
+                      <p>広告レポート取得・入札調整を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/yahoo-ads.png.webp" alt="" />
+                      <p>Yahoo広告</p>
+                      <p>広告運用レポート・予算管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/meta.png.webp" alt="" />
+                      <p>Meta広告</p>
+                      <p>キャンペーン分析・レポート作成を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/img/tool/google-analytics.png.webp"
+                        alt=""
+                      />
+                      <p>Google Analytics</p>
+                      <p>アクセス解析・定期レポートを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/tableau.png.webp" alt="" />
+                      <p>Tableau</p>
+                      <p>ダッシュボード更新・データ抽出を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/jira.svg" alt="" />
+                      <p>Jira</p>
+                      <p>チケット管理・進捗レポートを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/img/tool/looker-studio.png.webp"
+                        alt=""
+                      />
+                      <p>Looker Studio</p>
+                      <p>レポート自動生成・データ連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/microsoft-teams.svg" alt="" />
+                      <p>Microsoft Teams</p>
+                      <p>チャット連携・会議管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/sharepoint.svg" alt="" />
+                      <p>SharePoint</p>
+                      <p>文書管理・社内ポータル連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/powerbi.svg" alt="" />
+                      <p>Power BI</p>
+                      <p>ダッシュボード更新・KPIモニタリングを自動化</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="slide-02">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/notion.png.webp" alt="" />
+                      <p>Notion</p>
+                      <p>ドキュメント管理・タスク整理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/smarthr.svg" alt="" />
+                      <p>SmartHR</p>
+                      <p>入退社手続き・労務管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/money-forward.svg" alt="" />
+                      <p>Money Forward</p>
+                      <p>経費精算・仕訳処理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/chatwork.svg" alt="" />
+                      <p>Chatwork</p>
+                      <p>タスク振り分け・進捗報告を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/line.svg" alt="" />
+                      <p>LINE公式アカウント</p>
+                      <p>顧客対応・配信管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/github.svg" alt="" />
+                      <p>GitHub</p>
+                      <p>コードレビュー・リリース管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/openai.svg" alt="" />
+                      <p>ChatGPT / OpenAI</p>
+                      <p>AI応答の業務組込み・プロンプト管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/kintone.png.webp" alt="" />
+                      <p>kintone</p>
+                      <p>レコード登録・ワークフロー処理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/backlog.svg" alt="" />
+                      <p>Backlog</p>
+                      <p>課題管理・通知連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/base.png.webp" alt="" />
+                      <p>BASE</p>
+                      <p>注文処理・商品管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/ec-cube.png.webp" alt="" />
+                      <p>EC-CUBE</p>
+                      <p>受注管理・顧客データ連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/sumarezi.png.webp" alt="" />
+                      <p>スマレジ</p>
+                      <p>売上集計・在庫管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/logikura.png.webp" alt="" />
+                      <p>ロジクラ</p>
+                      <p>入出荷管理・在庫データ連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/yayoi.png.webp" alt="" />
+                      <p>弥生会計オンライン</p>
+                      <p>仕訳入力・決算資料作成を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/jinjer.svg" alt="" />
+                      <p>jinjer</p>
+                      <p>勤怠管理・給与計算連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/rakuraku-seisan.svg" alt="" />
+                      <p>楽楽精算</p>
+                      <p>経費申請・承認フローを自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/freee.png.webp" alt="" />
+                      <p>freee</p>
+                      <p>仕訳入力・請求書発行を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/gmail.svg" alt="" />
+                      <p>Gmail</p>
+                      <p>メール仕分け・定型返信を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/outlook.svg" alt="" />
+                      <p>Outlook</p>
+                      <p>メール管理・予定表連携を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/sap.svg" alt="" />
+                      <p>SAP / Oracle</p>
+                      <p>基幹システム連携・データ同期を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/gitlab.svg" alt="" />
+                      <p>GitLab</p>
+                      <p>CI/CD・マージリクエスト管理を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/asana.svg" alt="" />
+                      <p>Asana</p>
+                      <p>プロジェクト管理・タスク進捗を自動化</p>
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/img/tool/pdf.png.webp" alt="" />
+                      <p>PDF</p>
+                      <p>帳票読取・データ抽出を自動化</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
+            </div>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
+            </div>
           </div>
         </div>
-      </section>
 
-      <!-- お問い合わせセクション -->
-      <section id="contact-section" class="contact-section" data-aos="fade">
-        <div class="inner-block">
-          <h2 class="c-ttl01">
-            <span class="ttl">資料ダウンロード</span>
-            <span class="border"></span>
-            <span class="sub">Document download</span>
-          </h2>
+        <section class="plan-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">サービス内容・プラン</span>
+              <span class="border"></span>
+              <span class="sub">Plan</span>
+            </h2>
 
-          <form class="mcpon-form" onsubmit="return false;">
-            <div class="form-group">
-              <label>会社名 <span class="required">*</span></label>
-              <input type="text" name="company" placeholder="株式会社〇〇" required>
+            <div class="plan-flow">
+              <p class="plan-flow-ttl">導入の流れ</p>
+              <div class="plan-flow-steps">
+                <div class="plan-flow-step">
+                  <span class="plan-flow-num">1</span>
+                  <span>現状分析(PoC)</span>
+                </div>
+                <i class="fas fa-arrow-right plan-flow-arrow"></i>
+                <div class="plan-flow-step">
+                  <span class="plan-flow-num">2</span>
+                  <span>環境構築</span>
+                </div>
+                <i class="fas fa-arrow-right plan-flow-arrow"></i>
+                <div class="plan-flow-step">
+                  <span class="plan-flow-num">3</span>
+                  <span>社内展開</span>
+                </div>
+                <i class="fas fa-arrow-right plan-flow-arrow"></i>
+                <div class="plan-flow-step">
+                  <span class="plan-flow-num">4</span>
+                  <span>継続改善</span>
+                </div>
+              </div>
+              <p class="plan-lead">最短1ヶ月〜</p>
             </div>
-            <div class="form-group">
-              <label>部署 <span class="required">*</span></label>
-              <input type="text" name="department" placeholder="経営企画部" required>
+
+            <div class="plan-table">
+              <div class="plan-card">
+                <p class="plan-name">初期導入</p>
+                <p class="plan-price">
+                  60<span class="plan-unit">万円〜</span>
+                </p>
+                <p class="plan-note">5台まで一律</p>
+              </div>
+              <div class="plan-card">
+                <p class="plan-name">月額サービス利用料</p>
+                <p class="plan-price">
+                  15<span class="plan-unit">万円/月</span>
+                </p>
+                <p class="plan-note">&nbsp;</p>
+              </div>
+              <div class="plan-card">
+                <p class="plan-name">簡易サポートサービス</p>
+                <p class="plan-price">
+                  30<span class="plan-unit">万円/月</span>
+                </p>
+                <p class="plan-note">&nbsp;</p>
+              </div>
+              <div class="plan-card plan-card-premium">
+                <p class="plan-name">
+                  AIトランスフォーメーション<br />コンサル
+                </p>
+                <p class="plan-price">
+                  100<span class="plan-unit">万円〜</span>
+                </p>
+                <p class="plan-note">&nbsp;</p>
+              </div>
             </div>
-            <div class="form-row">
+          </div>
+        </section>
+
+        <div class="cta-area" data-aos="fade">
+          <div class="inner-block">
+            <div class="txt-area">
+              <p class="sub-txt">お見積もりは最短翌日！</p>
+              <p class="main-txt">
+                ルーティンワークを<br
+                  class="sp"
+                />最適化＝自動化して巻き取る「Mcpon」
+              </p>
+            </div>
+            <div class="grid">
+              <div class="tel-area">
+                <div class="tel-pc pc">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">03-6821-7613</p>
+                </div>
+                <a href="tel:03-6821-7613" class="tel-sp sp">
+                  <p class="txt">電話受付 平日9:00~19:00</p>
+                  <p class="number">今すぐ電話をかける</p>
+                </a>
+              </div>
+              <a href="#contact-section" class="c-btn01"
+                ><span class="inn-txt">資料ダウンロード</span></a
+              >
+              <a href="#contact-section" class="c-btn01 primary"
+                ><span class="inn-txt">無料相談フォーム</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <section class="qa-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">よくある質問</span>
+              <span class="border"></span>
+              <span class="sub">FAQ</span>
+            </h2>
+
+            <ul class="qa-list">
+              <li>
+                <button
+                  type="button"
+                  class="question-area js-accordion-btn"
+                  aria-expanded="false"
+                >
+                  <span class="qa-icon">Q.</span>
+                  <span class="inn-txt"
+                    >自社の機密データがAIの学習に使われることはありますか？
+                    <span class="security-badge">Security</span></span
+                  >
+                  <span class="ico-open"></span>
+                </button>
+                <div class="answer-area accordion-cont">
+                  <span class="qa-icon">A.</span>
+                  <p class="txt">
+                    いいえ、一切ありません。MCPonで扱うデータはAIモデルの学習には使用されません。お客様のデータは処理完了後に自動削除され、外部へ流出するリスクはゼロです。
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <button
+                  type="button"
+                  class="question-area js-accordion-btn"
+                  aria-expanded="false"
+                >
+                  <span class="qa-icon">Q.</span>
+                  <span class="inn-txt"
+                    >既存の社内ツールや独自システムとの連携には、別途開発費用が必要ですか？</span
+                  >
+                  <span class="ico-open"></span>
+                </button>
+                <div class="answer-area accordion-cont">
+                  <span class="qa-icon">A.</span>
+                  <p class="txt">
+                    標準ツール（Slack、Salesforce、freee、kintone等）はMCP設定のみで即座に連携可能です。独自システムについても、APIがあれば追加開発なしで接続できるケースがほとんどです。
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <button
+                  type="button"
+                  class="question-area js-accordion-btn"
+                  aria-expanded="false"
+                >
+                  <span class="qa-icon">Q.</span>
+                  <span class="inn-txt"
+                    >セキュリティ面での「権限管理」はどうなっていますか？
+                    <span class="security-badge">Security</span></span
+                  >
+                  <span class="ico-open"></span>
+                </button>
+                <div class="answer-area accordion-cont">
+                  <span class="qa-icon">A.</span>
+                  <p class="txt">
+                    MCPハブにより、誰が・どのツールに・どこまで操作できるかを厳格にコントロールします。すべての操作はログに記録され、既存の社内権限体系をそのまま引き継げます。
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <button
+                  type="button"
+                  class="question-area js-accordion-btn"
+                  aria-expanded="false"
+                >
+                  <span class="qa-icon">Q.</span>
+                  <span class="inn-txt"
+                    >すでにChatGPTやClaudeを契約していますが、それを使えますか？</span
+                  >
+                  <span class="ico-open"></span>
+                </button>
+                <div class="answer-area accordion-cont">
+                  <span class="qa-icon">A.</span>
+                  <p class="txt">
+                    はい、可能です。MCPonは特定のAIモデルに依存しません。ChatGPT、Claude、Gemini等、お客様が既にご契約中のLLMをそのまま活用できます。
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <button
+                  type="button"
+                  class="question-area js-accordion-btn"
+                  aria-expanded="false"
+                >
+                  <span class="qa-icon">Q.</span>
+                  <span class="inn-txt"
+                    >導入を検討してから実際に使えるまでどのくらいかかりますか？</span
+                  >
+                  <span class="ico-open"></span>
+                </button>
+                <div class="answer-area accordion-cont">
+                  <span class="qa-icon">A.</span>
+                  <p class="txt">
+                    初日から効果を実感いただけます。標準ツールの接続は即日完了。本格的な業務フロー構築も最短1ヶ月で稼働可能です。
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="company-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">すべての企業にAIの力を。</span>
+              <span class="border"></span>
+              <span class="sub">Company</span>
+            </h2>
+
+            <div class="company-content">
+              <div class="company-logo-area">
+                <img
+                  src="assets/img/icon_main.png"
+                  alt="AION"
+                  style="height: 240px"
+                />
+              </div>
+              <table class="company-table">
+                <tbody>
+                  <tr>
+                    <th>社名</th>
+                    <td>AION株式会社</td>
+                  </tr>
+                  <tr>
+                    <th>所在地</th>
+                    <td>東京都渋谷区千駄ヶ谷3-5-10</td>
+                  </tr>
+                  <tr>
+                    <th>代表取締役</th>
+                    <td>細貝 拓磨</td>
+                  </tr>
+                  <tr>
+                    <th>資本金</th>
+                    <td>1000万円</td>
+                  </tr>
+                  <tr>
+                    <th>事業内容</th>
+                    <td>
+                      AIエージェント「MCPon」の開発・運営、MCP導入支援、AI人材育成コンサルティング、DX推進支援
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>設立</th>
+                    <td>2025年5月</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- お問い合わせセクション -->
+        <section id="contact-section" class="contact-section" data-aos="fade">
+          <div class="inner-block">
+            <h2 class="c-ttl01">
+              <span class="ttl">資料ダウンロード</span>
+              <span class="border"></span>
+              <span class="sub">Document download</span>
+            </h2>
+
+            <form class="mcpon-form" onsubmit="return false;">
               <div class="form-group">
-                <label>姓 <span class="required">*</span></label>
-                <input type="text" name="last_name" placeholder="山田" required>
+                <label>会社名 <span class="required">*</span></label>
+                <input
+                  type="text"
+                  name="company"
+                  placeholder="株式会社〇〇"
+                  required
+                />
               </div>
               <div class="form-group">
-                <label>名 <span class="required">*</span></label>
-                <input type="text" name="first_name" placeholder="太郎" required>
+                <label>部署 <span class="required">*</span></label>
+                <input
+                  type="text"
+                  name="department"
+                  placeholder="経営企画部"
+                  required
+                />
               </div>
-            </div>
-            <div class="form-group">
-              <label>会社メールアドレス <span class="required">*</span></label>
-              <input type="email" name="email" placeholder="taro.yamada@example.co.jp" required>
-            </div>
-            <div class="form-group">
-              <label>電話番号</label>
-              <input type="tel" name="phone" placeholder="03-1234-5678">
-            </div>
-            <div class="form-check">
-              <input type="checkbox" id="privacy-check" required>
-              <label for="privacy-check">MCPonの<a href="#" style="color: var(--aion-blue); text-decoration: underline;">個人情報の取り扱い</a>に同意の上フォームの送信をお願いいたします。</label>
-            </div>
-            <button type="submit" class="form-submit">送信</button>
-          </form>
-        </div>
-      </section>
-      <!-- お問い合わせセクション -->
-      
-
-    </main><!-- main -->
-
-    <footer>
-      <div id="footer" class="c-footer">
-        <div class="inner-block">
-          <div class="img-area">
-            <img src="assets/img/mcpon-logo-text.png" alt="MCPon" style="height: 40px;">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>姓 <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="last_name"
+                    placeholder="山田"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label>名 <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="太郎"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label
+                  >会社メールアドレス <span class="required">*</span></label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="taro.yamada@example.co.jp"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>電話番号</label>
+                <input type="tel" name="phone" placeholder="03-1234-5678" />
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="privacy-check" required />
+                <label for="privacy-check"
+                  >MCPonの<a
+                    href="#"
+                    style="color: var(--aion-blue); text-decoration: underline"
+                    >個人情報の取り扱い</a
+                  >に同意の上フォームの送信をお願いいたします。</label
+                >
+              </div>
+              <button type="submit" class="form-submit">送信</button>
+            </form>
           </div>
-          <div class="link-area">
-            <a href="#" target="_blank">
-              <span class="inn-txt">プライバシーポリシー</span>
-              <img src="assets/img/ico-external.svg" alt="">
-            </a>
-            <a href="#" target="_blank">
-              <span class="inn-txt">運営会社</span>
-              <img src="assets/img/ico-external.svg" alt="">
-            </a>
+        </section>
+        <!-- お問い合わせセクション -->
+      </main>
+      <!-- main -->
+
+      <footer>
+        <div id="footer" class="c-footer">
+          <div class="inner-block">
+            <div class="img-area">
+              <img
+                src="assets/img/mcpon-logo-text.png"
+                alt="MCPon"
+                style="height: 40px"
+              />
+            </div>
+            <div class="link-area">
+              <a href="#" target="_blank">
+                <span class="inn-txt">プライバシーポリシー</span>
+                <img src="assets/img/ico-external.svg" alt="" />
+              </a>
+              <a href="#" target="_blank">
+                <span class="inn-txt">運営会社</span>
+                <img src="assets/img/ico-external.svg" alt="" />
+              </a>
+            </div>
+            <small>&copy; AION inc. All rights reserved.</small>
           </div>
-          <small>&copy; AION inc. All rights reserved.</small>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+    <!-- /wrapper -->
 
-  </div><!-- /wrapper -->
-
-  <script src="assets/js/lib/jquery-3.6.3.min.js"></script>
-  <script src="assets/js/lib/splide.min.js"></script>
-  <script src="assets/js/lib/splide-extension-auto-scroll.min.js"></script>
-  <script src="assets/js/lib/aos.js"></script>
-  <script src="assets/js/common.js"></script>
-
+    <script src="assets/js/lib/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/lib/splide.min.js"></script>
+    <script src="assets/js/lib/splide-extension-auto-scroll.min.js"></script>
+    <script src="assets/js/lib/aos.js"></script>
+    <script src="assets/js/common.js"></script>
   </body>
-
 </html>
